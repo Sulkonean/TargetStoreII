@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .header-logo img {
+    height: 40px; /* Reduce logo size for small screens */
+  }
+
+  .header-ctn .dropdown {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-ctn .dropdown .qty {
+    margin-left: 8px; /* Adjust spacing for cart quantity */
+  }
+
+  .row {
+    flex-wrap: nowrap; /* Prevent wrapping on small screens */
+  }
+
+  .col-6 {
+    flex: 0 0 auto; /* Ensure columns don't shrink too much */
+    width: auto; /* Allow natural width */
+  }
+}
